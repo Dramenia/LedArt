@@ -8,6 +8,16 @@ Inspired by: https://www.instructables.com/Fiber-Optic-and-LEDs-a-Wall-Decoratio
 
 ---
 
+## Credits
+
+**Concept & design:** Chris — octagon layout, fiber pairing concept, pattern ideas, hardware assembly.
+
+**Code:** [Claude Sonnet 4.6](https://claude.ai) (Anthropic) — all software was written by Claude based on design discussions with Chris. No code was written by hand.
+
+This project is an example of what's possible when you combine a creative vision with AI-assisted programming.
+
+---
+
 ## Hardware
 
 - **MCU:** ESP32 (Lolin32)
