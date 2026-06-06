@@ -1,0 +1,21 @@
+idf_component_register(
+    SRCS
+        "main.cpp"
+        "octagon/octagon.cpp"
+        "patterns/gradual_shift.cpp"
+        "patterns/solid_color.cpp"
+        "wifi/wifi_manager.cpp"
+        "wifi/config_server.cpp"
+        "api/api_server.cpp"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        espressif__led_strip
+        esp_timer
+        esp_wifi
+        esp_netif
+        esp_event
+        esp_http_server
+        nvs_flash
+        espressif__cjson
+)
